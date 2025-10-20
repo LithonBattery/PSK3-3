@@ -82,4 +82,3 @@ function wireUpForm() {
     if (globalThis.fetchSpentPerCategory) globalThis.fetchSpentPerCategory();
   });
 }
-12
