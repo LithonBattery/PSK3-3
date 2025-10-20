@@ -79,6 +79,7 @@ function wireUpForm() {
     // Reset form UI and refresh internal data
     e.target.reset();
     await loadData();
-    if (window.fetchSpentPerCategory) window.fetchSpentPerCategory();
+    if (globalThis.fetchSpentPerCategory) globalThis.fetchSpentPerCategory();
   });
 }
+12
